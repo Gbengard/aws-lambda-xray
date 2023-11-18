@@ -2,15 +2,13 @@
 
 ## Overview
 
-This GitHub project guides you through the creation of a Lambda function that can be invoked via a Function URL. This function queries a Dog photo API, saves the retrieved image to an S3 bucket, and displays the image in the browser.
+This project guides you through the creation of a Lambda function that can be invoked via a Function URL. This function queries a Dog photo API, saves the retrieved image to an S3 bucket, and displays the image in the browser.
 
 The Dog API utilized in this project is available at [https://dog.ceo/dog-api/](https://dog.ceo/dog-api/).
 
 To enhance performance monitoring, Lambda X-Ray is integrated to identify potential bottlenecks or errors in the code.
 
 Before you begin, download the `function.zip` file from this repository. There's no need to unzip it unless you wish to inspect its contents; it will be uploaded to Lambda as is.
-
-![Untitled](images/Untitled.png)
 
 The setup for this environment will be in the us-east-1 region, and all console links provided will be specific to that region. Ensure that you adjust the region accordingly if deploying elsewhere.
 
